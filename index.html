@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Misinformation / Disinformation Detection Using Agentic AI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    :root {
+      --text: #111;
+      --subtle: #666;
+      --line: #e5e5e5;
+      --accent: #0071e3;
+      --bg: #ffffff;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+      display: flex;
+    }
+
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 220px;
+      border-right: 1px solid var(--line);
+      padding: 40px 24px;
+      background: white;
+    }
+
+    .sidebar h3 {
+      font-size: 14px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--subtle);
+      margin-bottom: 24px;
+    }
+
+    .nav a {
+      display: block;
+      color: var(--subtle);
+      text-decoration: none;
+      margin-bottom: 14px;
+      font-size: 15px;
+    }
+
+    .nav a:hover { color: var(--text); }
+
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 80px 24px;
+      margin-left: 220px;
+    }
+
+    h1 {
+      font-size: 48px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      margin-bottom: 16px;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-top: 80px;
+      margin-bottom: 16px;
+      letter-spacing: -0.01em;
+    }
+
+    p {
+      font-size: 18px;
+      color: var(--subtle);
+      margin-bottom: 20px;
+    }
+
+    .hero {
+      padding-top: 120px;
+      padding-bottom: 60px;
+    }
+
+    .tagline {
+      font-size: 22px;
+      color: var(--subtle);
+      max-width: 600px;
+    }
+
+    .divider {
+      height: 1px;
+      background: var(--line);
+      margin: 80px 0;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 12px 20px;
+      border-radius: 999px;
+      background: var(--accent);
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    details {
+      margin-top: 20px;
+      border-left: 3px solid var(--line);
+      padding-left: 16px;
+    }
+
+    summary {
+      cursor: pointer;
+      font-weight: 500;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+
+    footer {
+      margin-top: 120px;
+      padding-top: 40px;
+      border-top: 1px solid var(--line);
+      font-size: 14px;
+      color: var(--subtle);
+    }
+
+    @media (max-width: 900px) {
+      .sidebar { display: none; }
+      .container { margin-left: 0; }
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 36px; }
+      h2 { font-size: 24px; }
+      p { font-size: 17px; }
+      .container { padding: 60px 20px; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <h3>Project</h3>
+    <nav class="nav">
+      <a href="#overview">Overview</a>
+      <a href="#intro">Introduction</a>
+      <a href="#methods">Methods</a>
+      <a href="#results">Results</a>
+      <a href="#discussion">Discussion</a>
+      <a href="#links">Links</a>
+    </nav>
+  </aside>
+
+  <!-- MAIN -->
+  <div class="container">
+
+    <!-- HERO / OVERVIEW -->
+    <section id="overview" class="hero">
+      <h1>Misinformation / Disinformation Detection Using Agentic AI</h1>
+      <p class="tagline"></p>
+
+      <a class="button" href="#">
+        View Code
+      </a>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- INTRO -->
+    <section id="intro">
+      <h2>Introduction</h2>
+      <p></p>
+      <p></p>
+    </section>
+
+    <!-- METHODS -->
+    <section id="methods">
+      <h2>Methods</h2>
+      <p></p>
+
+      <details>
+        <summary>Technical Details</summary>
+        <p></p>
+      </details>
+    </section>
+
+    <!-- RESULTS -->
+    <section id="results">
+      <h2>Results</h2>
+      <p></p>
+      <p></p>
+    </section>
+
+    <!-- DISCUSSION -->
+    <section id="discussion">
+      <h2>Discussion</h2>
+      <p></p>
+    </section>
+
+    <!-- LINKS -->
+    <section id="links">
+      <h2>Project Links</h2>
+      <p>
+        <a href="#">📄 Report</a><br>
+        <a href="#">💻 Code Repository</a><br>
+        <a href="#">🌐 Agentic Classifier Interface</a>
+      </p>
+    </section>
+
+    <footer>
+      DSC 180AB • Winter 2026<br>
+      Your Name • Mentor Name
+    </footer>
+
+  </div>
+
+</body>
+</html>
